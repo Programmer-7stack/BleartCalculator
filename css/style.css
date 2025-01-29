@@ -10,6 +10,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     margin:0;
+    overflow: hidden;
 }
 
 .calculator {
@@ -89,8 +90,7 @@ button:hover {
 
     body {
         margin: 0;
-        position: sticky;
-        top: 0;
+        overflow: hidden;
     }
 
     #display {
