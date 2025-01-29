@@ -79,6 +79,8 @@ button:hover {
     border-radius: 30px;
 }
 
+
+
 @media (max-width: 480px) {
     .calculator {
         width: 90%;
@@ -87,6 +89,8 @@ button:hover {
 
     body {
         margin: 0;
+        position: sticky;
+        top: 0;
     }
 
     #display {
